@@ -27,7 +27,7 @@ const UpcomingEvents = () => {
         { img: Codathon, class: false },
         { img: LinuxSession, class: false },
         { img: cyberSecuritySession, class: false },
-        { img: powerBi, class: true },
+        { img: powerBi, class: false },
     ];
 
     const workShop = [

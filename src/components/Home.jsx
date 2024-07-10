@@ -6,6 +6,7 @@ import About from "./About";
 import Testimonial from "./Testimonial";
 import Footer from "./Footer";
 import { animateScroll as scroll } from "react-scroll";
+import PopupAd from "./popupAd";
 // import Hackathon from "./Hackathon";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
            
                 <>
                     <HomePage />
+                    <PopupAd/>
                     {/* <Hackathon/> */}
                     <UpcomingEvents />
                     <Services />

@@ -85,7 +85,7 @@ const HomePage = () => {
                 </div>
             )}
             <marquee className="text-white mt-10 font-medium text-base md:text-2xl animate-pulse" behavior="" direction="">
-            Programming Club of SRCAS *** Upcoming Event - Power BI Session *** AI Gamified -  exclusively for 1st years *** 1Day workshop on DevOps ***
+            Power BI successfully ended - HackHunt Exclusively for 1st years on 11 July - One day workshop on cloud and devops
             </marquee>
         </div>
     );
