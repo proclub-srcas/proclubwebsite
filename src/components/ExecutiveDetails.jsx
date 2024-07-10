@@ -22,6 +22,7 @@ import madhesh from '../images/Executive Mmebers/MADHESH K.webp'
 import meeth from '../images/Executive Mmebers/MEETH R.webp'
 import selvi from '../images/Executive Mmebers/SELVI R.webp'
 import tamilarasu from '../images/Executive Mmebers/TAMILARASU K.webp'
+import Shobika from '../images/Executive Mmebers/shobika.jpg'
 
 
 export const executiveDetails = [
@@ -39,13 +40,15 @@ export const executiveDetails = [
     { name: 'Poornila I P', img: Poornila , dept: 'B.Sc IT - II', linkedin:'https://www.linkedin.com/in/poornila-i-p-45b0b4292?', instagram:'https://www.instagram.com/click_.natural?' },
     { name: 'Priyadharshini K', img: PriyaDharshini , dept: 'B.Sc CS CS - II', linkedin:'https://www.linkedin.com/in/priyadharshini-k-784920275'},   
     { name: 'Rishaba R U', img: Rishaba , dept: 'B.Sc CS CS - III', linkedin :' https://www.linkedin.com/in/rishaba0305204?' },
-    { name: 'Sarath P', img: Sarath , dept: 'B.Sc IT - II', linkedin:'http://www.linkedin.com/in/thisisthesarath' , instagram:'http://www.instagram.com/sarath.online' },
+    { name: 'Sarath P', img: Sarath , dept: 'B.Sc IT - II', linkedin:'http://www.linkedin.com/in/thisisthesarath' , instagram:'http://www.instagram.com/sarath.online' , portfolio:'http://bit.ly/sarathh'},
+    { name: 'Shobika P', img: Shobika , dept: 'BCA - III',  },
+    
     { name: 'Saratthi', img: SriSaratthi , dept: 'B.Sc IT - III', linkedin:'https://www.linkedin.com/in/saratthi-080555166' },
     { name: 'Selvi.R', img: selvi , dept: 'B.Sc CS - II', linkedin:'https://www.linkedin.com/in/selvi-ravikumar-3274ab292/', instagram:'https://www.instagram.com/selvi.ravikumar_11' },
     { name: 'Srikanth R G', img: srikanth , dept: 'B.Sc CS CS - II', linkedin:'https://www.linkedin.com/in/srikanth-r-g-544937283?' , instagram:'https://www.instagram.com/spetsnaz_srikanth?' },
     { name: 'Sujithaa J', img: Sujithaa , dept: 'B.Sc CS with CS - II', linkedin:'https://www.linkedin.com/in/sujithaa-j-41643b292?',instagram:'https://www.instagram.com/suji_2408_j?igsh=MWd0MW9zajY2cG95ZA==' },
     { name: 'Tamilarasu K', img: tamilarasu , dept: 'B.Sc CS - III', linkedin:'https://www.linkedin.com/in/tamilarasu-k-930485306/', instagram:'https://www.instagram.com/peachboy_751/' },
-    { name: 'Velan J', img: Velan , dept: 'B.Sc CS DA - II', linkedin:'https://www.linkedin.com/in/velan-jayashankar', instagram:'https://www.instagram.com/ig__velan__' },
+    { name: 'Velan J', img: Velan , dept: 'B.Sc CS DA - II', linkedin:'https://www.linkedin.com/in/velan-jayashankar', instagram:'https://www.instagram.com/ig__velan__', portfolio:'https://velanj.vercel.app/' },
     { name: 'Vikaas K S', img: Vikaas , dept: 'B.Sc IT - II', linkedin:'https://www.linkedin.com/in/vikaas-k-s-7644a9292?' ,instagram:'https://www.instagram.com/vikaas_0304?' },
     { name: 'Vishnuraj R', img: Vishnuraj , dept: 'B.Sc CS CS - III', linkedin:'https://www.linkedin.com/in/vishnuraj-r-a3229324b/' , instagram:'https://www.instagram.com/vishnu._.rvr/' },
    

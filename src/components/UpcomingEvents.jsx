@@ -1,14 +1,14 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
-import cptImg from '../images/cpt.jpg'
-import webdesignImg from '../images/web design event.jpg';
-import comingSoon from '../images/code.jpg';
-import gameDev from '../images/Events/game dev.png'
+
+
+import CodeChronicles from '../images/Events/code chronicles.jpg'
+import ByteBattle from '../images/Events/byte battle.jpeg'
+import Codathon from '../images/Events/codathon.webp'
+import LinuxSession from '../images/Events/linux session.webp'
+import cyberSecuritySession from '../images/Events/cyber security session.webp'
 import powerBi from '../images/Events/Microsoft Power BI.jpeg'
-import aiChallenge from '../images/Events/microsoft-ai-tool-revolution-edge.jpg'
-import footPrint from '../images/Events/footprint.jpg'
-import githubDev from '../images/Events/github.jpg'
-import codingQuiz from '../images/Events/quiz.png'
+
 
 //workshop
 import flutter from '../images/Events/flutter .jpg'
@@ -22,14 +22,12 @@ import cloud from '../images/Events/cloud.png'
 
 const UpcomingEvents = () => {
     const EventsInfo = [
-        { img: webdesignImg, class: true },
-        { img: cptImg, class: true },
-        { img: gameDev, class: true },
+        { img: CodeChronicles, class: false },
+        { img: ByteBattle, class: false },
+        { img: Codathon, class: false },
+        { img: LinuxSession, class: false },
+        { img: cyberSecuritySession, class: false },
         { img: powerBi, class: true },
-        { img: aiChallenge, class: true },
-        { img: footPrint, class: true },
-        { img: githubDev, class: true },
-        { img: codingQuiz, class: true },
     ];
 
     const workShop = [
@@ -55,7 +53,7 @@ const UpcomingEvents = () => {
 
         <div className='mt-7 flex flex-col justify-center items-center'>
             <h1 ref={titleRef} className={`text-white mt-16 text-center font-poppins font-bold text-3xl md:text-4xl underline underline-offset-8 decoration-secondary transition-opacity duration-1000 ${titleInView ? 'opacity-100' : 'opacity-0'}`}>
-                Upcoming Events
+             Events ! 
             </h1>
             <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8 mt-10 md:mt-16 px-4 md:px-20'>
                 {EventsInfo.map((item, index) => (

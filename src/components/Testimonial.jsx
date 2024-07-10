@@ -45,7 +45,7 @@ const ReviewCard = ({ title, imgSrc, name }) => {
     return (
         <div
             ref={ref}
-            className={`rounded-lg p-2 w-full md:w-fit md:p-5 bg-[#121212] text-white transition-all duration-1000 ease-in-out transform ${inView ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-10 opacity-0 scale-95'} hover:bg-gray-800`}
+            className={`rounded-lg p-2 w-full md:w-fit md:p-5 bg-[#121212] text-white transition-all duration-700 ease-in-out transform ${inView ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-10 opacity-0 scale-95'} hover:bg-gray-800`}
         >
             <h1 className="text-xs md:text-xl text-left text-gray-400">{title}</h1>
             <div className="flex justify-start gap-4 pt-3 items-center">

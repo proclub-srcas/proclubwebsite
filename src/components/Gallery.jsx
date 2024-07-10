@@ -6,10 +6,14 @@ import CSImg2 from '../images/gallery/session-cyber2.webp';
 import codathonImg from '../images/gallery/codathon.webp';
 import Linux1 from '../images/gallery/Linux1.webp';
 import Linux2 from '../images/gallery/Linux2.webp';
+import codeChronicles from '../images/gallery/codeChronicles.jpg'
+import codeChronicleImg from '../images/gallery/codeChroniclesImg.jpg'
 
 const Gallery = () => {
     const Imgdata = [
-        { img: g4Img, event: 'Mastering the art of Web Designing' },
+        { img: codeChronicles, event: 'Code Chronicles (Quiz competition)' },
+        { img: codeChronicleImg, event: 'Code Chronicles (Quiz competition)' },
+        { img: g4Img, event: 'Mastering the art of Web Designing' }, 
         { img: cyberSessionImg, event: 'Cyber Session' },
         { img: CSImg2, event: 'Cyber Session 2' },
         { img: codathonImg, event: 'Codathon 2k24' },

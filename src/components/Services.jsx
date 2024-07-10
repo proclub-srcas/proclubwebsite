@@ -74,13 +74,13 @@ const ServiceCard = ({ imgSrc, name, desc }) => {
     return (
         <div
             ref={ref}
-            className={`bg-[#1c1c24] text-left rounded-lg p-6 flex flex-col items-center transition-all duration-[1500ms] ease-in-out transform ${inView ? 'translate-y-0 rotate-0 opacity-100 scale-100' : 'translate-y-10 rotate-3 opacity-0 scale-95'} shadow-xl hover:shadow-2xl hover:bg-[#1e521e] hover:text-white hover:scale-105`}
+            className={`bg-[#1c1c24] text-left rounded-lg p-6 flex flex-col items-center transition-all duration-[800ms] ease-in-out transform ${inView ? 'translate-y-0 rotate-0 opacity-100 scale-100' : 'translate-y-10 rotate-3 opacity-0 scale-95'} shadow-xl hover:shadow-2xl hover:bg-[#1e521e] hover:text-white hover:scale-105`}
         >
             <div className="mb-4">
                 {imgSrc}
             </div>
             <h2 className="text-2xl font-semibold mb-2">{name}</h2>
-            <p className="text-gray-400 text-xs md:text-base">{desc}</p>
+            <p className="text-gray-400  text-xs md:text-base">{desc}</p>
         </div>
     );
 };
