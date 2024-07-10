@@ -21,7 +21,7 @@ const Executive = () => {
                 <h3 className="text-2xl font-bold">{item.name}</h3>
                 <p className="text-lg text-gray-400">{item.dept}</p>
                 <p className="text-lg text-gray-400">{item.role}</p>
-                <div className="flex mt-4 space-x-4">
+                <div className="flex mt-4 space-x-4 transition-all">
                   <a href={item.instagram} className="text-pink-500 hover:text-pink-400" target="_blank" rel="noopener noreferrer">
                     <FaInstagram size={24} />
                   </a>
