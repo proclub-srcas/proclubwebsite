@@ -19,6 +19,7 @@ import appDev from '../images/Events/App Development Workshop.png'
 import uiux from '../images/Events/uiux.png'
 import iot from '../images/Events/iot.png'
 import cloud from '../images/Events/cloud.png'
+import Kadhaipoma from '../images/Events/Kadhaipoma.jpg'
 
 const UpcomingEvents = () => {
     const EventsInfo = [
@@ -28,6 +29,7 @@ const UpcomingEvents = () => {
         { img: LinuxSession, class: false },
         { img: cyberSecuritySession, class: false },
         { img: powerBi, class: false },
+        { img: Kadhaipoma, class: false },
     ];
 
     const workShop = [
