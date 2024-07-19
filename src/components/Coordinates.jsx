@@ -78,7 +78,7 @@ const Coordinators = () => {
   };
 
   return (
-    <div className="bg-[#010101] text-white min-h-screen p-6 md:p-12">
+    <div className="bg-[#010101] text-white min-h-screen pt-6 pb-6 px-2 md:p-12">
       <h1 className="text-4xl md:text-4xl font-extrabold text-yellow-500 text-center mb-12">Pillars of the Club!</h1>
 
       <div className="flex justify-center mb-8">

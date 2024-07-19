@@ -84,8 +84,8 @@ const HomePage = () => {
                     </a>
                 </div>
             )}
-            <marquee className="text-white mt-10 font-medium text-base md:text-2xl animate-pulse" behavior="" direction="">
-            *** Hackathon Session successfully ended *** HackHunt Exclusively for 1st years on 11 July *** One Day Workshop on Cloud & Devops Coming soon  ***
+            <marquee className="text-black mt-10 font-semibold text-base md:text-2xl bg-yellow-400 p-2" behavior="" direction="">
+            *** FREE Devops workshop - 20-07-2024 *** SRCAS Hackathon - National level 14-08-2024 *** UI/UX WORKSHOP SOON !!  ***
             </marquee>
         </div>
     );

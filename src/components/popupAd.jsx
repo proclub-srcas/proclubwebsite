@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import popupImg from '../images/hackathon.jpg';
+import popupImg from '../images/Events/devops.jpg';
 
 const PopupAd = () => {
   const [showAd, setShowAd] = useState(false);
-  const linktoAd = 'https://www.srcashackathon.live/';
+  const linktoAd = '';
 
   useEffect(() => {
     const hasSeenAd = sessionStorage.getItem("hasSeenAd");

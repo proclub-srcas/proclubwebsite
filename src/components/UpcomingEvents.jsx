@@ -33,14 +33,17 @@ const UpcomingEvents = () => {
     ];
 
     const workShop = [
+        { img: devOps, class: false },
+        { img: uiux, class: true },
+        { img: cloud, class: true },
+
         { img: flutter, class: true },
         { img: cyberSecurity, class: true },
-        { img: devOps, class: true },
+       
         { img: dataAnalysis, class: true },
         { img: appDev, class: true },
-        { img: uiux, class: true },
+
         { img: iot, class: true },
-        { img: cloud, class: true },
     ]
    
     
