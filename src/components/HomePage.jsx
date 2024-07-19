@@ -26,10 +26,10 @@ const HomePage = () => {
                         where innovation and collaboration drive success.
                     </p>
                     <div className="flex items-center justify-center mb-8 pb-8 md:mb-16">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC7lBbe_fA92j5auQPd7-mHeB9tD-GMopx-CqQJLD_-NgJfQ/viewform" target='blank'>
-                        <button className="hover:bg-[#3CB371] bg-[#28A745] font-semibold text-white transition-all text-xl font-poppins md:text-4xl rounded-xl py-3 px-5">Join Now</button>
-                    </a>
-                </div>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC7lBbe_fA92j5auQPd7-mHeB9tD-GMopx-CqQJLD_-NgJfQ/viewform" target='blank'>
+                            <button className="hover:bg-[#3CB371] bg-[#28A745] font-semibold text-white transition-all text-xl font-poppins md:text-4xl rounded-xl py-3 px-5">Join Now</button>
+                        </a>
+                    </div>
                 </div>
             ),
         },
@@ -84,9 +84,10 @@ const HomePage = () => {
                     </a>
                 </div>
             )}
-            <marquee className="text-black mt-10 font-semibold text-base md:text-2xl bg-yellow-400 p-2" behavior="" direction="">
-            *** FREE Devops workshop - 20-07-2024 *** SRCAS Hackathon - National level 14-08-2024 *** UI/UX WORKSHOP SOON !!  ***
+            <marquee className="text-black mt-10 font-semibold text-base md:text-2xl bg-[#F7E03C] p-2" behavior="" direction="">
+                *** FREE Devops workshop - 20-07-2024 *** SRCAS Hackathon - National level 14-08-2024 *** UI/UX WORKSHOP SOON !!  ***
             </marquee>
+
         </div>
     );
 };
