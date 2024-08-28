@@ -21,7 +21,7 @@ import karuppasamy from '../images/Executive Mmebers/KARUPPASAMY M.webp'
 
 import selvi from '../images/Executive Mmebers/SELVI R.webp'
 
-import Shobika from '../images/Executive Mmebers/shobika.jpg'
+
 import karthickRoshan from '../images/Executive Mmebers/karthick roshan.jpg'
 
 
@@ -32,7 +32,7 @@ export const executiveDetails = [
     { name: 'Gokul S', img: Gokul , dept: 'B.Sc IT - III', linkedin:'https://www.linkedin.com/in/gokul-saravanan-s-74bb9327b?', instagram:'https://www.instagram.com/lil_dodge5?' },
     { name: 'Sujithaa J', img: Sujithaa , dept: 'B.Sc CS with CS - II', linkedin:'https://www.linkedin.com/in/sujithaa-j-41643b292?',instagram:'https://www.instagram.com/suji_2408_j?igsh=MWd0MW9zajY2cG95ZA==' },
     { name: 'Nandita', img: Nandita , dept: 'B.Sc IT - II', linkedin:'https://www.linkedin.com/in/nandita-s-a38948312?', instagram:'https://www.instagram.com/que.enofdevil12?igsh=MTdmNHpqYWk3emh1bQ==' },
-    { name: 'Shobika P', img: Shobika , dept: 'BCA - III',  },       
+   
     { name: 'Karthick Roshan K', img: karthickRoshan  , dept: 'BCA - III "A" ', linkedin:'https://www.linkedin.com/in/karthick-roshan-316510272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' , instagram:'https://www.instagram.com/meeth.19'},
     { name: 'Harini', img: harini , dept: 'B.Sc CS with CS - III', linkedin:'https://www.linkedin.com/in/harini-pechimuthu-1b47972b5',instagram:'https://www.instagram.com/harinipechimuthu?' }, 
     { name: 'Chittesh', img: Chittesh , dept: 'B.Sc CS CS', linkedin:'https://www.linkedin.com/in/chittesh-undefined-753499306?', instagram:'https://www.instagram.com/chittesh___23?' },
