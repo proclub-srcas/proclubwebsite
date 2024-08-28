@@ -11,6 +11,7 @@ import Linux1 from '../images/gallery/Linux1.webp';
 import Linux2 from '../images/gallery/Linux2.webp';
 import codeChronicles from '../images/gallery/codeChronicles.jpg';
 import codeChronicleImg from '../images/gallery/codeChroniclesImg.jpg';
+import srcasHackathonBanner from '../images/gallery/srcas hackathon.jpg'
 import srcasHackathon from '../images/gallery/srcashackathon-1.jpg';
 import srcasHackathon2 from '../images/gallery/srcashackathon-2.jpg';
 import srcasHackathon3 from '../images/gallery/srcashackathon-3.jpg';
@@ -20,7 +21,7 @@ const Gallery = () => {
     const eventImages = [
         {
             event: 'SRCAS Hackathon',
-            images: [srcasHackathon, srcasHackathon2, srcasHackathon3, srcasHackathon4],
+            images: [srcasHackathonBanner,srcasHackathon, srcasHackathon2, srcasHackathon3, srcasHackathon4],
         },
         {
             event: 'Code Chronicles (Quiz competition)',
