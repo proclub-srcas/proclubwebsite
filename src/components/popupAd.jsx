@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import popupImg from '../images/Events/devops.jpg';
+import popupImg from '../images/SRCAS-Hackathon.jpg';
 
 const PopupAd = () => {
   const [showAd, setShowAd] = useState(false);
-  const linktoAd = '';
+  const linktoAd = 'https://srcashackathon.live';
 
   useEffect(() => {
     const hasSeenAd = sessionStorage.getItem("hasSeenAd");
@@ -33,7 +33,7 @@ const PopupAd = () => {
                 <img
                   src={popupImg}
                   alt="Ad Content"
-                  className="rounded-lg w-full h-96 md:h-auto border-2 border-yellow-600"
+                  className="rounded-lg w-full h-96 md:h-auto border-4 border-yellow-600"
                   style={{ maxHeight: "80vh" }}
                 />
               </a>

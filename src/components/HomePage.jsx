@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carous
 import { useNavigate } from 'react-router-dom';
 
 import hackSphereImg from '../images/hacksphere.jpg';
-import HomeImg2 from '../images/Carousel/codeChronicles Winners.jpg';
+import HomeImg2 from '../images/Carousel/srcas-hackathon.jpg';
 import HomeImg3 from '../images/Carousel/session-cyber2.webp';
 
 const HomePage = () => {
@@ -85,7 +85,7 @@ const HomePage = () => {
                 </div>
             )}
             <marquee className="text-black mt-10 font-semibold text-base md:text-2xl bg-[#F7E03C] p-2" behavior="" direction="">
-                *** FREE Devops workshop - 20-07-2024 *** SRCAS Hackathon - National level 14-08-2024 *** UI/UX WORKSHOP SOON !!  ***
+                *** Linkedin Mastery Session SOON !! *** Prompt Engineering Session SOON !! *** UI/UX WORKSHOP SOON !!  ***
             </marquee>
 
         </div>
