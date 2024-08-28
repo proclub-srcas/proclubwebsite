@@ -17,12 +17,10 @@ import PriyaDharshini from '../images/Executive Mmebers/Priya Dharshini.jpg'
 import Chittesh from '../images/Executive Mmebers/chittesh.webp' 
 import hariKrishnan from '../images/Executive Mmebers/HARIKRISHNAN T.webp'
 import karuppasamy from '../images/Executive Mmebers/KARUPPASAMY M.webp'
-
-
 import selvi from '../images/Executive Mmebers/SELVI R.webp'
-
-
 import karthickRoshan from '../images/Executive Mmebers/karthick roshan.jpg'
+
+import TempImg from '../images/Executive Mmebers/tempImg.jpg'
 
 
 export const executiveDetails = [
@@ -55,12 +53,12 @@ export const executiveDetails = [
     { name: 'Saratthi', img: SriSaratthi , dept: 'B.Sc IT - III', linkedin:'https://www.linkedin.com/in/saratthi-080555166' },
     { name: 'Selvi.R', img: selvi , dept: 'B.Sc CS - II', linkedin:'https://www.linkedin.com/in/selvi-ravikumar-3274ab292/', instagram:'https://www.instagram.com/selvi.ravikumar_11' },
    
-    { name: 'Immanuel jayaruban P', dept: 'B.Sc AI DS - II', },
-    { name: 'Arshaad Basel ', dept: 'B.Sc CS CS - II', },
-    { name: 'Kavin. S ', dept: 'BCA - II', },
-    { name: 'Sahana.L ', dept: 'BCA - III', },
-    { name: 'Sriram.R ', dept: 'BCA - III', },
-    { name: 'Divyesh R ', dept: 'B.Sc CS CS - II', },
+    { name: 'Immanuel jayaruban P',  img:TempImg, dept: 'B.Sc AI DS - II', },
+    { name: 'Arshaad Basel ', img:TempImg, dept: 'B.Sc CS CS - II', },
+    { name: 'Kavin. S ', img:TempImg, dept: 'BCA - II', },
+    { name: 'Sahana.L ', img:TempImg, dept: 'BCA - III', },
+    { name: 'Sriram.R ', img:TempImg, dept: 'BCA - III', },
+    { name: 'Divyesh R ', img:TempImg, dept: 'B.Sc CS CS - II', },
  
    
   
