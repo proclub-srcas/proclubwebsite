@@ -26,7 +26,7 @@ const HomePage = () => {
                         where innovation and collaboration drive success.
                     </p>
                     <div className="flex items-center justify-center mb-8 pb-8 md:mb-16">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfC7lBbe_fA92j5auQPd7-mHeB9tD-GMopx-CqQJLD_-NgJfQ/viewform" target='blank'>
+                        <a href="https://forms.gle/kVdJ3XwitZBKEhE48" target='blank'>
                             <button className="hover:bg-[#3CB371] bg-[#28A745] font-semibold text-white transition-all text-xl font-poppins md:text-4xl rounded-xl py-3 px-5">Join Now</button>
                         </a>
                     </div>

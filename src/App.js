@@ -9,6 +9,7 @@ import Winners from "./components/Winners";
 import Magazine from "./components/Magazine";
 import PageTransition from "./components/PageTransition";
 import ScrollToTop from "./components/ScrollToTop";
+import Membership from "./components/Membership";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                     <Route path = "/Humans" element={<Humans/>}/>
                     <Route path="/Winners" element={<Winners />} />
                     <Route path="/Magazine" element={<Magazine />} />
+                    <Route path="/membership" element={<Membership />} />
                 </Routes>
             </PageTransition>
         </BrowserRouter>
